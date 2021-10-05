@@ -1,0 +1,33 @@
+{	
+	// old colour sheme and theme -->
+	// "color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+	// "theme": "Adaptive.sublime-theme",
+	"ensure_newline_at_eof_on_save": true,
+	// this is external and needs to be downloaded
+	// download from: https://github.com/tonsky/FiraCode
+	"font_face": "Fira Code",
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"rulers":
+	[
+		80,
+		100,
+		120
+	],
+	"show_full_path": true,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"word_wrap": "auto",
+	"wrap_width": 80,
+	"scroll_past_end": 0.8,
+	"tab_completion": false,
+	// use ctrl + space to manually show auto complete, auto is annoying
+	"auto_complete": false,
+	"spell_check": true,
+	"dictionary": "Packages/Language - English/en_GB.dic",
+	"theme": "Material-Theme.sublime-theme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+}
