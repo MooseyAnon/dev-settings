@@ -28,6 +28,15 @@
 	"auto_complete": false,
 	"spell_check": true,
 	"dictionary": "Packages/Language - English/en_GB.dic",
+        // message from sublime version 41.6.0 update --->
+        // 41.6.0 (2022-12-02)
+  	// -------------------
+
+  	// ***Important Notice***
+
+  	// Please note that this package is **deprecated** and not maintained anymore!
+  	// You are using a mirror of a now-deleted repository.
+  	// See https://github.com/wbond/package_control_channel/pull/8646 for details.
 	"theme": "Material-Theme.sublime-theme",
 	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 }
