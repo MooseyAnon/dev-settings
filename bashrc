@@ -2,7 +2,7 @@
 if [[ -f $HOME/.git-prompt.sh ]]; then
     source $HOME/.git-prompt.sh
     export GIT_PS1_SHOWDIRTYSTATE=1
-    export PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
+    export PS1='[\u -> \W$(__git_ps1 " (%s)")]\$ '
 fi
 
 # from here: https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
