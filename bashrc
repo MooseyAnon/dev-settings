@@ -2,6 +2,7 @@
 if [[ -f $HOME/.git-prompt.sh ]]; then
     source $HOME/.git-prompt.sh
     export GIT_PS1_SHOWDIRTYSTATE=1
+    # interesting ideas for dynamic PS1: https://bashcommands.com/bash-ps1
     export PS1='[\u -> \W$(__git_ps1 " (%s)")]\$ '
 fi
 
